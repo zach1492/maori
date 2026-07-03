@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="26.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maor</Civ>
+    <SpecificName>Pā Tūwatawata</SpecificName>
+    <GenericName>Fortress</GenericName>
+    <History>The pā tūwatawata was the ultimate expression of Māori military architecture — a heavily fortified stronghold surrounded by multiple rows of sharpened palisades, deep ditches, and earthwork ramparts. Built on high ground, a great pā could shelter an entire hapū and resist prolonged assault.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="24.0" depth="26.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+          units/{civ}/hero_hongi_hika_b
+      units/{civ}/hero_te_wherowhero_b
+      units/{civ}/hero_kawiti_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/maori/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.0</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Identity>
+    <Civ>maor</Civ>
+    <SpecificName>Tūāhu Hokohoko</SpecificName>
+    <GenericName>Market</GenericName>
+    <History>Trade and exchange were important parts of Māori society, with different iwi trading food, tools, greenstone, and other taonga across established routes throughout Aotearoa.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/maori/market.xml</Actor>
+  </VisualActor>
+</Entity>

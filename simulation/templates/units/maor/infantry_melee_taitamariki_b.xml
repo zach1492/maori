@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Tauira</GenericName>
+    <SpecificName>Tauira</SpecificName>
+    <Icon>units/maor/infantry_melee_taitamariki.png</Icon>
+    <History>
+      Young Māori warriors not yet fully trained, but fierce and fearless.
+      Sent in numbers to overwhelm and exhaust the enemy before the Toa strike.
+    </History>
+    <Tooltip>Extremely cheap and fast swarm unit. Low health and attack but devastating in numbers.</Tooltip>
+  </Identity>
+
+  <Cost>
+    <Resources>
+      <food>30</food>
+    </Resources>
+    <BuildTime>4</BuildTime>
+  </Cost>
+
+  <Health>
+    <Max>40</Max>
+  </Health>
+ 
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>2</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Attack>
+    <Melee>
+      <AttackName>Melee</AttackName>
+      <Damage>
+        <Hack>6</Hack>
+        <Pierce>0</Pierce>
+        <Crush>4</Crush>
+      </Damage>
+      <MaxRange>2.0</MaxRange>
+      <PrepareTime>600</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+  </UnitMotion>
+
+  <Vision>
+    <Range>28</Range>
+  </Vision>
+
+  <Sound>
+    <SoundGroups>
+      <select>voice/te_reo/maori_male.xml</select>
+      <order_walk>voice/te_reo/maori_male.xml</order_walk>
+      <order_build>voice/te_reo/maori_male.xml</order_build>
+      <order_attack>voice/te_reo/maori_male.xml</order_attack>
+      <death>voice/te_reo/maori_male.xml</death>
+      <order_garrison>voice/te_reo/maori_male.xml</order_garrison>
+      <gather_fish>voice/te_reo/maori_male.xml</gather_fish>
+    </SoundGroups>
+  </Sound>
+  <Promotion>
+    <Entity>units/maor/infantry_melee_taitamariki_a</Entity>
+  </Promotion>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/maor/pou_whenua
+      -structures/{civ}/crannog
+      -structures/{civ}/military_colony
+      -structures/{civ}/encampment
+      -structures/{civ}/ice_house
+      -structures/{civ}/pyramid_small
+      -structures/{civ}/apartment
+      -structures/{civ}/corral
+      -structures/{civ}/kennel
+      -structures/{civ}/stable
+      -structures/{civ}/great_hall
+      -structures/{civ}/elephant_stable
+      -structures/{civ}/ministry
+      -structures/{civ}/arsenal
+      -structures/{civ}/academy
+      -structures/{civ}/wallset_stone
+      -structures/{civ}/wallset_palisade
+      -structures/{civ}/theater
+      -structures/{civ}/tachara
+    </Entities>
+  </Builder>
+
+  <VisualActor>
+    <Actor>units/thebans/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

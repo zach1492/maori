@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Footprint>
+    <Square width="8.0" depth="8.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="7.0" depth="7.0"/>
+  </Obstruction>
+  <Identity>
+    <Civ>maor</Civ>
+    <SpecificName>Whare</SpecificName>
+    <GenericName>House</GenericName>
+    <History>The whare was the traditional Māori dwelling, constructed from timber frames with walls of bark, rushes, or raupo (bulrush). Carved and painted decorations represented ancestral connections and tribal identity.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/maori/house.xml</Actor>
+  </VisualActor>
+</Entity>

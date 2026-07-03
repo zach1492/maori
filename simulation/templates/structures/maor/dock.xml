@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Footprint>
+    <Square width="26.0" depth="30.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
+  </Health>
+
+  <Identity>
+    <Civ>maor</Civ>
+    <SpecificName>Tauranga Waka</SpecificName>
+    <GenericName>Dock</GenericName>
+  </Identity>
+
+  <Obstruction>
+    <Static width="22.0" depth="26.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/ship_double_hulled_canoe_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/maori/dock.xml</Actor>
+    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

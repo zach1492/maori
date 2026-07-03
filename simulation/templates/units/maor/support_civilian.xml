@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Māori Citizen</GenericName>
+    <SpecificName>Tāngata</SpecificName>
+    <Icon>units/maor/support_civilian.png</Icon>
+  </Identity>
+    <Cost>
+    <Resources>
+      <food>20</food>
+    </Resources>
+    <BuildTime>3</BuildTime>
+  </Cost>
+
+  <Sound>
+    <SoundGroups>
+      <select>voice/te_reo/maori_female.xml</select>
+      <order_walk>voice/te_reo/maori_female.xml</order_walk>
+      <order_build>voice/te_reo/maori_female.xml</order_build>
+      <order_attack>voice/te_reo/maori_female.xml</order_attack>
+      <death>voice/te_reo/maori_female.xml</death>
+      <order_garrison>voice/te_reo/maori_female.xml</order_garrison>
+      <gather_fish>voice/te_reo/maori_female.xml</gather_fish>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>      
+  <Actor>units/maor/support_{phenotype}_citizen.xml</Actor>
+
+  </VisualActor>
+    <Builder>
+    <Entities datatype="tokens">
+      structures/maor/pou_whenua
+      -structures/{civ}/crannog
+      -structures/{civ}/military_colony
+      -structures/{civ}/encampment
+      -structures/{civ}/ice_house
+      -structures/{civ}/pyramid_small
+      -structures/{civ}/apartment
+      -structures/{civ}/corral
+      -structures/{civ}/kennel
+      -structures/{civ}/stable
+      -structures/{civ}/great_hall
+      -structures/{civ}/elephant_stable
+      -structures/{civ}/ministry
+      -structures/{civ}/arsenal
+      -structures/{civ}/academy
+      -structures/{civ}/wallset_stone
+      -structures/{civ}/wallset_palisade
+      -structures/{civ}/theater
+      -structures/{civ}/tachara
+    </Entities>
+  </Builder>
+</Entity>
