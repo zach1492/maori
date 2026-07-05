@@ -98,6 +98,6 @@
   </Builder>
 
   <VisualActor>
-    <Actor>units/thebans/melee_toa_b.xml</Actor>
+    <Actor>units/maor/melee_toa_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -26,7 +26,7 @@
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/maori/barracks.xml</Actor>
+    <Actor>structures/maor/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

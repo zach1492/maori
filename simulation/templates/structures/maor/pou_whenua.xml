@@ -43,7 +43,7 @@
     <Max>500</Max>
   </Health>
   <VisualActor>
-    <Actor>structures/maori/pou_whenua.xml</Actor>
+    <Actor>structures/maor/pou_whenua.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
 
   </VisualActor>

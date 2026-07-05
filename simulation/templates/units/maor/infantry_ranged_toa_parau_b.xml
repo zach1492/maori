@@ -105,6 +105,6 @@
   </Builder>
 
   <VisualActor>
-    <Actor>units/thebans/infantry_javelinist_b.xml</Actor>
+    <Actor>units/maor/infantry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

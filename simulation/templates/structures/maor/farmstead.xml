@@ -17,7 +17,7 @@
     <Static width="5.0" depth="5.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/maori/farmstead.xml</Actor>
+    <Actor>structures/maor/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_6x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -24,7 +24,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/maori/dock.xml</Actor>
+    <Actor>structures/maor/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>
