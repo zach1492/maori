@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Maori_Farmstead">
-      <mesh>structures/maori/Maori_Farmstead.dae</mesh>
+      <mesh>structures/maor/Maori_Farmstead.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structures/maori/Maori_Farmstead.png" name="baseTex"/>
+        <texture file="structures/maor/Maori_Farmstead.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

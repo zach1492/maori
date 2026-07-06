@@ -21,6 +21,12 @@
   <Trainer>
     <Entities datatype="tokens">
       units/{civ}/ship_double_hulled_canoe_b
+
+      -units/{civ}/ship_scout
+      -units/{civ}/ship_arrow
+      -units/{civ}/ship_ram
+      -units/{civ}/ship_fire
+      -units/{civ}/ship_siege
     </Entities>
   </Trainer>
   <VisualActor>

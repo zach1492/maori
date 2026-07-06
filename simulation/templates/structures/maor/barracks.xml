@@ -19,6 +19,14 @@
 
     </Entities>
   </Trainer>
+  
+    <Researcher>
+    <Technologies datatype="tokens">
+      maor/haere_tere
+      maor/moko
+      maor/utu
+    </Technologies>
+  </Researcher>
     <Footprint>
     <Square width="31.0" depth="31.0"/>
   </Footprint>

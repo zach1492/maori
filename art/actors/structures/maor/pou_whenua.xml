@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Maori_Pou_Whenua">
-      <mesh>structures/maori/Maori_Pou_Whenua.dae</mesh>
+      <mesh>structures/maor/Maori_Pou_Whenua.dae</mesh>
       <textures>
-        <texture file="structures/maori/Maori_Pou_Whenua.png" name="baseTex"/>
+        <texture file="structures/maor/Maori_Pou_Whenua.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

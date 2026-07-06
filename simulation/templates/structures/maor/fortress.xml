@@ -13,6 +13,9 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
+    <Auras datatype="tokens">
+    structures/test_building_aura
+  </Auras>
   <Researcher>
     <Technologies datatype="tokens">
 

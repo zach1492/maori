@@ -10,6 +10,9 @@
       who led the charge and absorbed the brunt of enemy attacks. Their mana
       inspired all who fought beside them.
     </History>
+      <Requirements>
+    <Techs datatype="tokens">phase_town</Techs>
+  </Requirements>
     <Tooltip>Heavy frontline warrior. High HP, fast for their size, and moderate damage. Expensive but worth it.</Tooltip>
   </Identity>
 
@@ -98,6 +101,7 @@
       -structures/{civ}/tachara
     </Entities>
   </Builder>
+
 
   <VisualActor>
     <Actor>units/maor/melee_parekura_b.xml</Actor>
