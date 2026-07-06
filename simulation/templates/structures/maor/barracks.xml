@@ -8,8 +8,7 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      -units/{civ}/champion_infantry_hoplite
-      -units/{civ}/champion_infantry_swordsman
+
       units/{civ}/infantry_melee_toa_b
       units/{civ}/infantry_melee_taitamariki_b
       units/{civ}/infantry_ranged_wahine_toa_b
