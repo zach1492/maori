@@ -23,7 +23,7 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-          units/{civ}/hero_hongi_hika_b
+      units/{civ}/hero_hongi_hika_b
       units/{civ}/hero_te_wherowhero_b
       units/{civ}/hero_kawiti_b
     </Entities>

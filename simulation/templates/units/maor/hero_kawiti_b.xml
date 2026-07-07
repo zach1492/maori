@@ -5,6 +5,7 @@
       <Bonuses>
         <BonusMaori>
           <Civ>maor</Civ>
+
           <Classes></Classes>
           <Multiplier>1.35</Multiplier>
         </BonusMaori>
@@ -21,6 +22,8 @@
     <History>Kawiti was a formidable Ngāpuhi warrior known for his tactical excellence and fierce resistance. His guerrilla warfare tactics and fortress construction made him one of the most dangerous adversaries to colonial forces.</History>
 
     <Icon>units/maor/Cheif1.png</Icon>
+                <Lang>maori</Lang>
+
   </Identity>
   <VisualActor>
     <Actor>units/maor/hero_kawiti_b.xml</Actor>

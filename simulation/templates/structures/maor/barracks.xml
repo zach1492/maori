@@ -21,6 +21,7 @@
   
     <Researcher>
     <Technologies datatype="tokens">
+      -unlock_champion_infantry
       maor/haere_tere
       maor/moko
       maor/utu
